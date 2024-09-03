@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.title-duration-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.duration-cont {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.duration {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.description {
+  color: #2a2828;
+  font-weight: 400;
+}
+
+.tags-cont {
+  padding-inline-start: 0;
+  display: flex;
+  gap: 1rem 1rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  list-style-type: none;
+  background-color: rgba(193, 190, 190, 0.8);
+  color: black;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}

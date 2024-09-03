@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.app-cont {
+  min-height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 3rem;
+  display: block;
+  color: #0967d2;
+}
+
+.ccbp-timeline-cont {
+  width: 50%;
+}
